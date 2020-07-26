@@ -1,3 +1,3 @@
-# potterheads_101
+# Potterworld
 
 A Basic React app for potterheads
