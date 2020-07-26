@@ -141,7 +141,7 @@ class SortingHat extends Component{
               });
             }
           )
-        }, 2500); 
+        }, 3000); 
       }
     
       render() {

@@ -39,7 +39,7 @@ class Trivia extends Component{
                 <div className="col-12 col-md m-1">
                 <Card style={cardstyle}>
                 <Link to={`/trivia/characters`} >
-                    <CardImg width="100%" varient="top" src={charactersimg} alt='CHARACTERS' />
+                    <CardImg width="100%" varient="top" src={charactersimg} />
                     
                     <CardBody>
                         <CardText style={cardtextstyle} >
@@ -51,7 +51,7 @@ class Trivia extends Component{
                 
                 </Card>
                 </div>
-            <div className="space1"></div>
+            <div className="space2"></div>
                 <div className="col-12 col-md m-1">
                 <Card style={cardstyle}>
                 <Link to={`/trivia/spells`} >

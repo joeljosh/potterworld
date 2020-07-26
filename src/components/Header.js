@@ -75,12 +75,12 @@ class Header extends Component {
     
       handleScroll = e => {
     
-        if (window.scrollY < 80) {
+        if (window.scrollY < 50) {
           this.setState({navstyle: navtop})
           this.setState({navlinkstyle:navlinktop})
           this.setState({togglerstyle:togglertop})
 
-        } else if (window.scrollY > 80) {
+        } else if (window.scrollY > 50) {
           this.setState({navstyle: navscrolled})
           this.setState({navlinkstyle:navlinkscrolled})
           this.setState({togglerstyle:togglerscrolled})

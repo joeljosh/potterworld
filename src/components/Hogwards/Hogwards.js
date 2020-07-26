@@ -39,7 +39,7 @@ class Hogwards extends Component{
                     <CardBody>
                         <CardText style={cardtextstyle} >
                            We cant all go to Hogwards to wear the sorting hat.So,here is a better solution.Just sit tight 
-                           and hope you get what you want.<br></br><strong>Click to get sorted.</strong>
+                           and hope you get what you  hoped for.<br></br><strong>Click to get sorted.</strong>
                         </CardText>
                         </CardBody>
                         </Link>
