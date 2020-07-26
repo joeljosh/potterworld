@@ -141,7 +141,7 @@ class SortingHat extends Component{
               });
             }
           )
-        }, 1750); 
+        }, 2500); 
       }
     
       render() {
@@ -152,7 +152,7 @@ class SortingHat extends Component{
           return (<div className='row justify-content-center'>
           <div className="col-12 col-md-5 ">
           <div className='space'></div>
-          <img src={hat} style={loadingimgstyle} alt='sheesh'></img>
+          <img src={hat} style={loadingimgstyle} ></img>
        
           <p style={textstyle}>Hmm...You are a tough lad to place...<br></br><strong>I KNOW!!!</strong></p>
       </div></div>)

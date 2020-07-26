@@ -2,6 +2,8 @@ import React,{Component} from 'react';
 import {Card,CardImg,CardBody,CardText,CardHeader} from 'reactstrap';
 import {Link} from 'react-router-dom';
 import { Fade, Stagger } from 'react-animation-components';
+import house from './images/housebg.jpg'
+import explore from './images/patronus.jpg'
 
 
 const cardstyle ={
@@ -32,7 +34,7 @@ class Hogwards extends Component{
                 <Card style={cardstyle} >
                 <CardHeader style={cardheadstyle}>Sorting Hat</CardHeader>
                 <Link to={`/hogwards/sortinghat`} >
-                    <CardImg width="100%" varient="top" src="images/housebg.jpg" alt='heyy' />
+                    <CardImg width="100%" varient="top" src={house} alt='heyy' />
                     
                     <CardBody>
                         <CardText style={cardtextstyle} >
@@ -49,7 +51,7 @@ class Hogwards extends Component{
                 <Card style={cardstyle}>
                 <CardHeader style={cardheadstyle}>Explore</CardHeader>
                 <Link to={`/hogwards/explore`} >
-                    <CardImg width="100%" varient="top" src="images/patronus.jpg" alt='heyy' />
+                    <CardImg width="100%" varient="top" src={explore} alt='heyy' />
                     
                     <CardBody>
                         <CardText style={cardtextstyle} >

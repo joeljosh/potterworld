@@ -2,6 +2,9 @@ import React,{Component} from 'react';
 import {Card,CardImg,CardBody,CardText} from 'reactstrap';
 import {Link} from 'react-router-dom'
 import { Fade,Stagger} from 'react-animation-components';
+import charactersimg from './images/characters.jpg';
+import spellsimg from './images/spells.jpg'
+
 
 const textstyle ={
     textAlign: 'center',
@@ -36,7 +39,7 @@ class Trivia extends Component{
                 <div className="col-12 col-md m-1">
                 <Card style={cardstyle}>
                 <Link to={`/trivia/characters`} >
-                    <CardImg width="100%" varient="top" src="images/characters.jpg" alt='heyy' />
+                    <CardImg width="100%" varient="top" src={charactersimg} alt='CHARACTERS' />
                     
                     <CardBody>
                         <CardText style={cardtextstyle} >
@@ -52,7 +55,7 @@ class Trivia extends Component{
                 <div className="col-12 col-md m-1">
                 <Card style={cardstyle}>
                 <Link to={`/trivia/spells`} >
-                    <CardImg width="100%" varient="top" src="images/spells.jpg" alt='heyy' />
+                    <CardImg width="100%" varient="top" src={spellsimg} alt='SPELLS' />
                     
                     <CardBody>
                         <CardText style={cardtextstyle} >

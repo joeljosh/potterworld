@@ -79,7 +79,7 @@ class Explore extends Component{
               });
             }
           )
-        }, 1500); 
+        }, 2000); 
       }
 
 
@@ -91,7 +91,7 @@ class Explore extends Component{
       return (<div className='row justify-content-center'>
       <div className="col-12 col-md-5 ">
       <div className='space'></div>
-      <img src={wand} style={loadingimgstyle} alt='sheesh'></img>
+      <img src={wand} style={loadingimgstyle} ></img>
    
       <p style={textstyle}><strong>"Its the Wand that chooses the Wizard"</strong></p>
   </div></div>);

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem}from 'reactstrap';
 import { NavLink } from 'react-router-dom';
+import logo from '../shared/images/logo.png'
 
 
 const navtop = {backgroundColor: 'transparent',
@@ -93,7 +94,7 @@ class Header extends Component {
             <div>
                 <Navbar light fixed="top" expand="md" fixed="top" className = 'navBar' onScroll={this.handleScroll} style={this.state.navstyle} >
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><img src='images/logo.png' height="50" width="60" alt=' ' /></NavbarBrand>
+                        <NavbarBrand className="mr-auto" href="/"><img src={logo} height="50" width="60" alt=' ' /></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} className="ml-auto " style={this.state.togglerstyle}><i className="fa fa-bars fa-lg"></i></NavbarToggler>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar className="ml-auto " >
