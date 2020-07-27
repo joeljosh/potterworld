@@ -2,14 +2,14 @@
 
 Clone down this repository. You will need node and npm installed globally on your machine.
 
-# Installation:
+### Installation:
 
-npm install
+`npm install`
 
-# To Start Server:
+### To Start Server:
 
-npm start
+`npm start`
 
-# To View App, Visit:
+### To View App, Visit:
 
 localhost:3000/
