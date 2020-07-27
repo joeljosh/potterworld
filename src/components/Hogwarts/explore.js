@@ -79,7 +79,7 @@ class Explore extends Component{
               });
             }
           )
-        }, 2000); 
+        }, 1500); 
       }
 
 

@@ -24,7 +24,7 @@ class Home extends Component{
                 <i className="fa fa-bolt fa-lg"></i>
             <p  style={textstyle}>We have all been there, be it waiting desperately near the window for the owl carrying your letter from Hogwarts to arrive or yelling out spells like Accio, hoping to god that the summoning charm works this time around and then sadly realising that maybe you are not a wizard after all.</p>
             <hr></hr><i className="fa fa-magic fa-lg"></i><br></br>
-           <p  style={textstyle}> But that doesn't have to stop you from enjoying the Wizarding World. Get ready to put on the Sorting Hat and flaunt the traits of your House, read up trivia about your favourite characters and discover your Patronous all the while holding your own wand! 
+           <p  style={textstyle}> But that doesn't have to stop you from enjoying the Wizarding World. Get ready to put on the Sorting Hat and flaunt the traits of your House, read up trivia about your favourite characters and discover your Patronus all the while holding your own wand! 
  <hr></hr><strong>Welcome to the World of Harry Potter, Potterheads.</strong></p>  
        
             </Stagger></Fade>
