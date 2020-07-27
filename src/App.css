@@ -1,8 +1,12 @@
 body{
   background-color: #0B1D3A;
-  height:1000px;
+  height:100%;
   color:#C3CAD0 ;
   
+}
+
+.root{
+  padding-bottom:60px;
 }
 .space{
   height:12rem
@@ -30,6 +34,9 @@ body{
 outline: none;
 box-shadow: none;
 }
+
+
+
 
 .page-enter {
   opacity: 0.01;

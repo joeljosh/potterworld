@@ -18,9 +18,12 @@ class Footer extends Component{
            
             <div >
       
-      <div className="footer fixed-bottom footer-light footer-shadow content container-fluid footer-transparent  ">
+      <div className="footer footer-light  footer-shadow  container-fluid  ">
             <div className='d-flex justify-content-center'>
-        <p  style={this.state.text}>Made with <i className="fa fa-magic fa-lg"></i> By JJ</p>
+                <div><div className='space1'></div>
+                <p  style={this.state.text}>Made with <i className="fa fa-magic fa-lg"></i> By JJ</p>
+                </div>
+      
         </div>
         
     </div>
