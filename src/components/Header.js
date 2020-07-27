@@ -102,7 +102,7 @@ class Header extends Component {
                                 <NavLink className="nav-link"  to='/home' style={this.state.navlinkstyle}  onClick={this.closeNavbar}><span className="fa fa-bolt fa-lg"></span> Home</NavLink>
                             </NavItem> 
                             <NavItem className='d-flex justify-content-center'>
-                                <NavLink className="nav-link"  to='/hogwards' style={this.state.navlinkstyle}  onClick={this.closeNavbar}><span className="fa fa-fort-awesome fa-lg"></span>Hogwards</NavLink>
+                                <NavLink className="nav-link"  to='/hogwards' style={this.state.navlinkstyle}  onClick={this.closeNavbar}><span className="fa fa-fort-awesome fa-lg"></span>Hogwarts</NavLink>
                             </NavItem>
                             <NavItem className='d-flex justify-content-center'>
                                 <NavLink className="nav-link" to='/trivia' style={this.state.navlinkstyle}  onClick={this.closeNavbar}><span className="fa fa-graduation-cap fa-lg"></span>Trivia</NavLink>

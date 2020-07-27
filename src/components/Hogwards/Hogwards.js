@@ -38,7 +38,7 @@ class Hogwards extends Component{
                     
                     <CardBody>
                         <CardText style={cardtextstyle} >
-                           We cant all go to Hogwards to wear the sorting hat.So,here is a better solution.Just sit tight 
+                           We cant all go to Hogwarts to wear the sorting hat.So,here is a better solution.Just sit tight 
                            and hope you get what you  hoped for.<br></br><strong>Click to get sorted.</strong>
                         </CardText>
                         </CardBody>
@@ -55,7 +55,7 @@ class Hogwards extends Component{
                     
                     <CardBody>
                         <CardText style={cardtextstyle} >
-                            Imagine you were in Hogwards.Want to know what your wand would be? Or Lets say I even knew which patronus you wold have....<br></br>
+                            Imagine you were in Hogwarts.Want to know what your wand would be? Or Lets say I even knew which patronus you wold have....<br></br>
                             <strong>Cick to know more. </strong>
 
                         </CardText>
