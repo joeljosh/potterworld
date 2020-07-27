@@ -147,7 +147,7 @@ class SortingHat extends Component{
       render() {
         const { error, isLoaded, item } = this.state;
         if (error) {
-          return <div>Error: {error.message}</div>;
+          return <div><div className='space'></div>Error: {error.message}</div>;
         } else if (!isLoaded) {
           return (<div className='row justify-content-center'>
           <div className="col-12 col-md-5 ">
