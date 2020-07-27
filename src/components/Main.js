@@ -4,9 +4,9 @@ import Footer from './Footer';
 import Home from './Home'
 import Trivia from './Trivia/Trivia';
 import RenderTrivia from './Trivia/RenderTrivia'
-import Hogwards from './Hogwards/Hogwards.js';
-import SortingHat from './Hogwards/sortinghat';
-import Explore from './Hogwards/explore'
+import Hogwarts from './Hogwarts/Hogwarts.js';
+import SortingHat from './Hogwarts/sortinghat';
+import Explore from './Hogwarts/explore'
 import {Switch,Route,Redirect} from 'react-router-dom';
 
 import characters from '../shared/characters'
@@ -27,11 +27,11 @@ class Main extends Component{
                 <Switch >
                   <Route path='/home' component = {() => <Home />}/>
                   <Route exact path='/trivia'  component = {() => <Trivia />}/>
-                  <Route exact path='/hogwards' component = {() => <Hogwards />} />
+                  <Route exact path='/hogwarts' component = {() => <Hogwarts />} />
                   <Route path='/trivia/characters' component = {() => <RenderTrivia Items={characters} subject={Characters}/>} />
                   <Route path='/trivia/spells' component = {() => <RenderTrivia Items={spells} subject={Spells}/>} />
-                  <Route path='/hogwards/sortinghat' component = {() => <SortingHat Houses={houses}/>} />
-                  <Route path='/hogwards/explore' component = {() => <Explore />} />
+                  <Route path='/hogwarts/sortinghat' component = {() => <SortingHat Houses={houses}/>} />
+                  <Route path='/hogwarts/explore' component = {() => <Explore />} />
                   <Redirect to="/home" />
               </Switch>
               </CSSTransition>

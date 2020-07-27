@@ -23,7 +23,7 @@ const cardtextstyle = {
     fontFamily: 'sans-serif',
     fontSize: '1rem'
 }
-class Hogwards extends Component{
+class Hogwarts extends Component{
     render(){
         return(
            <Fade in><Stagger in>
@@ -33,7 +33,7 @@ class Hogwards extends Component{
                 <div className="col-12 col-md m-1">
                 <Card style={cardstyle} >
                 <CardHeader style={cardheadstyle}>Sorting Hat</CardHeader>
-                <Link to={`/hogwards/sortinghat`} >
+                <Link to={`/hogwarts/sortinghat`} >
                     <CardImg width="100%" varient="top" src={house} alt='heyy' />
                     
                     <CardBody>
@@ -50,7 +50,7 @@ class Hogwards extends Component{
                 <div className="col-12 col-md m-1">
                 <Card style={cardstyle}>
                 <CardHeader style={cardheadstyle}>Explore</CardHeader>
-                <Link to={`/hogwards/explore`} >
+                <Link to={`/hogwarts/explore`} >
                     <CardImg width="100%" varient="top" src={explore} alt='heyy' />
                     
                     <CardBody>
@@ -75,4 +75,4 @@ class Hogwards extends Component{
     }
 }
 
-export default Hogwards;
+export default Hogwarts;
