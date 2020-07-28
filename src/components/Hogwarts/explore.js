@@ -1,11 +1,11 @@
 import React,{Component} from 'react';
 import {Card,CardImg,CardBody,CardText,CardHeader} from 'reactstrap';
 import { FadeTransform } from 'react-animation-components';
+import key from './key'
 
 import wand from './images/wand.webp'
 import img from './images/img.jpg'
 
-const key='$2a$10$nDezAhuiS62xfSl4I94MMOpZwPLAMVj1o2gvi..IB9fMzFmzh4PL6'
 
 
 const loadingimgstyle = {
